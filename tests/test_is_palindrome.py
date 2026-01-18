@@ -5,3 +5,6 @@ def test_pytest():
 
 def test_is_palindrome_happy():
     assert is_palindrome("radar") == True 
+
+def test_is_palindrome_unhappy():
+    assert is_palindrome("radars") == False
